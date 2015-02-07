@@ -16,6 +16,9 @@ public static void main(String[] args){
 
     System.out.println("Hello " + name + " this is Java");
 
+    user use = new user(name);
+
+    System.out.println(use.getName() + " " + use.getID());
 
 
 }
